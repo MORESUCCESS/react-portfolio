@@ -11,7 +11,7 @@ const Hero = ()=>{
                     <p className="text-xl lg:mb-0 mb-2">FrontEnd Developer</p>
                     <h1 className="lg:text-6xl text-4xl">Hello I'm</h1>
                     <p className="lg:text-6xl text-4xl text-purple-500">Hammed Omoniyi</p>
-                    <p className="lg:mt-5 mt-8">An expert in developing perfect digital experiences <br className="lg:block hidden"/> and I'm proficient in various programming languages and <br/> technologies.</p>
+                    <p className="lg:mt-5 mt-8">An expert in developing perfect digital experiences <br className="lg:block hidden"/> and I'm proficient in various programming languages and <br className="lg:block hidden"/> technologies.</p>
                 </div>
                 <div className="mt-10 flex lg:flex-row flex-col items-start gap-8">
                     <a href="/cv_download.pdf" download className="hover:bg-purple-800 hover:text-white duration-300 cursor-pointer text-purple-500 border border-purple-500 flex items-center gap-2 rounded-xl py-2 px-10">

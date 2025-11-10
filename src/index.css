@@ -45,3 +45,33 @@
   scrollbar-width: thin;
   scrollbar-color: #9333ea #1e1e1e;
 }
+
+
+/* pagination */
+
+/* your global CSS file (e.g., index.css) */
+
+.pagination-theme .ant-pagination-item {
+  background-color: #1f2937;   /* gray-800 */
+  border: none;
+}
+
+.pagination-theme .ant-pagination-item a {
+  color: white;
+}
+
+.pagination-theme .ant-pagination-item-active {
+  background-color: #6d28d9 !important;  /* purple-700 */
+  border-radius: 8px;
+}
+
+.pagination-theme .ant-pagination-item-active a {
+  color: white !important;
+}
+
+.pagination-theme .ant-pagination-prev .ant-pagination-item-link,
+.pagination-theme .ant-pagination-next .ant-pagination-item-link {
+  color: white;
+  background-color: #6d28d9;  /* purple */
+  border-radius: 6px;
+}

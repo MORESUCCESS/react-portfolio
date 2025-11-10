@@ -52,7 +52,7 @@ const Resume = ()=>{
                             exit={{opacity: 0}}
                         >
                         <h1 className="text-3xl text-white">My Experience</h1>
-                        <p className="text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum eius possimus necessitatibus.</p>
+                        <p className="text-gray-500">Below are my different experiences:</p>
 
                         <div className="grid grid-cols-2 gap-6 h-[340px] flex-1 scroll">
                             <div className="bg-gray-800 p-4 rounded-lg">
@@ -96,7 +96,7 @@ const Resume = ()=>{
                             exit={{opacity: 0}}
                         >
                         <h1 className="text-3xl text-white">My Education</h1>
-                        <p className="text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum eius possimus necessitatibus.</p>
+                        <p className="text-gray-500">Education qualifications:</p>
 
                         <div className="grid grid-cols-2 gap-6 h-[340px] flex-1 scroll">
                             <div className="bg-gray-800 p-4 rounded-lg">

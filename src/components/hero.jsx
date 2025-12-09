@@ -8,7 +8,7 @@ const Hero = ()=>{
         <div className="flex lg:flex-row flex-col items-center justify-center lg:justify-between">
             <div className="py-10 space-y-5 flex flex-col items-center lg:text-start text-center lg:items-start lg:order-none order-2">
                 <div className="text-white">
-                    <p className="text-xl lg:mb-0 mb-2">FrontEnd Developer</p>
+                    <p className="text-xl lg:mb-0 mb-2">FullStack Developer(MERN Stack)</p>
                     <h1 className="lg:text-6xl text-4xl">Hello I'm</h1>
                     <p className="lg:text-6xl text-4xl text-purple-500">Hammed Omoniyi</p>
                     <p className="lg:mt-5 mt-8">An expert in developing perfect digital experiences <br className="lg:block hidden"/> and I'm proficient in various programming languages and <br className="lg:block hidden"/> technologies.</p>

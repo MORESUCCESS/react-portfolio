@@ -139,7 +139,7 @@ const Resume = ()=>{
                             exit={{opacity: 0}}
                         >
                         <h1 className="text-3xl text-white">My Skills</h1>
-                        <p className="text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum eius possimus necessitatibus.</p>
+                        <p className="text-gray-500">The following are lists of technologies I have mastered and now work with.</p>
 
                         <div className="grid lg:grid-cols-4 grid-cols-2 gap-6 flex-1">
                             <div className="bg-gray-800 p-4 rounded-lg text-center text-white hover:text-purple-600 cursor-pointer duration-300">
@@ -165,6 +165,11 @@ const Resume = ()=>{
                             <div className="bg-gray-800 p-4 rounded-lg text-center text-white hover:text-purple-600 cursor-pointer duration-300">
                                 <i className="text-6xl ri-bootstrap-fill"></i>
                             </div>
+
+                            <div className="bg-gray-800 p-4 rounded-lg text-center text-white hover:text-purple-600 cursor-pointer duration-300">
+                                <i className="text-6xl ri-nodejs-line"></i>
+                            </div>
+
                         </div>
                         </motion.div>
                     }
@@ -191,7 +196,7 @@ const Resume = ()=>{
                                 <h1 className="text-gray-500">Phone <span className="text-white">+234 907 584 1361</span></h1>
                                 <h1 className="text-gray-500">Discord <span className="text-white">ms2dwrld</span></h1>
                                 <h1 className="text-gray-500">Email <span className="text-white">ms2dwrld@gmail.com</span></h1>
-                                <h1 className="text-gray-500">Languages <span className="text-white">English, Spanish</span></h1>
+                                <h1 className="text-gray-500">Languages <span className="text-white">English, Yoruba</span></h1>
                             </div>
 
                         </div>

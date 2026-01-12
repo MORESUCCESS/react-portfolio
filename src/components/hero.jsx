@@ -24,7 +24,7 @@ const Hero = ()=>{
 
             <div className="relative overflow-hidden items-center justify-center lg:w-[380px] lg:h-[380px] w-[290px] h-[290px] lg:order-none order-1 profile relative lg:mt-2 mt-10">
                 <img 
-                    src="/profile.png" 
+                    src="/myprofile.png" 
                     alt="profile image"
                     className="object-contain rounded-full w-full h-full" 
                 />
@@ -32,7 +32,7 @@ const Hero = ()=>{
                     fill="transparent"
                     viewBox="0 0 506 506"
                     xmlns="https://www.w3.org/2000/svg"
-                    className="lg:w-[418px] lg:h-[418px] w-[330px] h-[330px] absolute top-[-12px] right-[-18px]">
+                    className="lg:w-[400px] lg:h-[400px] w-[330px] h-[330px] absolute top-[-12px] right-[-18px]">
                     <motion.circle
                         cx="253" cy="253"
                         stroke="#400090"

@@ -56,33 +56,27 @@ const Resume = ()=>{
 
                         <div className="grid grid-cols-2 gap-6 h-[340px] flex-1 scroll">
                             <div className="bg-gray-800 p-4 rounded-lg">
-                                <p className="text-purple-600">2025 - Present</p>
-                                <h1 className="text-white">Full Stack Developer</h1>
-                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> ms2dwrld inc.</p>
+                                <p className="text-purple-600">2023 - Present</p>
+                                <h1 className="text-white">Frontend Developer - Personal Projects</h1>
+                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> ms2dwrld</p>
+                            </div>
+
+                            <div className="bg-gray-800 p-4 rounded-lg">
+                                <p className="text-purple-600">2024 - Present</p>
+                                <h1 className="text-white">Freelance Web Developer</h1>
+                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> Fiverr</p>
+                            </div>
+
+                            <div className="bg-gray-800 p-4 rounded-lg">
+                                <p className="text-purple-600">2023 - Present</p>
+                                <h1 className="text-white">Independent Web Development Learner</h1>
+                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> ms2dwrld</p>
                             </div>
 
                             <div className="bg-gray-800 p-4 rounded-lg">
                                 <p className="text-purple-600">2025 - Present</p>
-                                <h1 className="text-white">Full Stack Developer</h1>
-                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> ms2dwrld inc.</p>
-                            </div>
-
-                            <div className="bg-gray-800 p-4 rounded-lg">
-                                <p className="text-purple-600">2025 - Present</p>
-                                <h1 className="text-white">Full Stack Developer</h1>
-                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> ms2dwrld inc.</p>
-                            </div>
-
-                            <div className="bg-gray-800 p-4 rounded-lg">
-                                <p className="text-purple-600">2025 - Present</p>
-                                <h1 className="text-white">Full Stack Developer</h1>
-                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> ms2dwrld inc.</p>
-                            </div>
-
-                            <div className="bg-gray-800 p-4 rounded-lg">
-                                <p className="text-purple-600">2025 - Present</p>
-                                <h1 className="text-white">Full Stack Developer</h1>
-                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> ms2dwrld inc.</p>
+                                <h1 className="text-white">Tech Creator & Digital Marketing Specialist</h1>
+                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> ms2dwrld</p>
                             </div>
                         </div>
                         </motion.div>
@@ -99,35 +93,18 @@ const Resume = ()=>{
                         <p className="text-gray-500">Education qualifications:</p>
 
                         <div className="grid grid-cols-2 gap-6 h-[340px] flex-1 scroll">
-                            <div className="bg-gray-800 p-4 rounded-lg">
-                                <p className="text-purple-600">2025 - Present</p>
-                                <h1 className="text-white">Primary School</h1>
-                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> ms2dwrld inc.</p>
+                            <div className="bg-gray-800 p-4 rounded-lg relative">
+                                <p className="text-purple-600">2021 - 2023</p>
+                                <h1 className="text-white">Computer Science (ND)</h1>
+                                <p className="mt-3 text-gray-400 absolute bottom-2"><span className="text-3xl text-purple-600">.</span>Federal Polytechnic Ile-Oluji, Ondo State, NG.</p>
                             </div>
 
-                            <div className="bg-gray-800 p-4 rounded-lg">
-                                <p className="text-purple-600">2025 - Present</p>
-                                <h1 className="text-white">Secondary School</h1>
-                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> ms2dwrld inc.</p>
+                            <div className="bg-gray-800 p-4 rounded-lg relative">
+                                <p className="text-purple-600">2024 - Present</p>
+                                <h1 className="text-white">BSc Computer Science and Engineering</h1>
+                                <p className="mt-3 text-gray-400 absolute bottom-2"><span className="text-3xl text-purple-600">.</span> Obafemi Awolowo University, Ile-Ife, NG.</p>
                             </div>
 
-                            <div className="bg-gray-800 p-4 rounded-lg">
-                                <p className="text-purple-600">2025 - Present</p>
-                                <h1 className="text-white">Full Stack Developer</h1>
-                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> ms2dwrld inc.</p>
-                            </div>
-
-                            <div className="bg-gray-800 p-4 rounded-lg">
-                                <p className="text-purple-600">2025 - Present</p>
-                                <h1 className="text-white">Full Stack Developer</h1>
-                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> ms2dwrld inc.</p>
-                            </div>
-
-                            <div className="bg-gray-800 p-4 rounded-lg">
-                                <p className="text-purple-600">2025 - Present</p>
-                                <h1 className="text-white">Full Stack Developer</h1>
-                                <p className="mt-3 text-gray-400"><span className="text-3xl text-purple-600">.</span> ms2dwrld inc.</p>
-                            </div>
                         </div>
                         </motion.div>
                     }

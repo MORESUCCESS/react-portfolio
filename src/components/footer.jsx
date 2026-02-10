@@ -12,7 +12,7 @@ const Footer = ()=>{
                 </div>
 
                 <div className="flex items-center gap-1">
-                    <h1 className="lg:text-6xl text-5xl font-bold text-gray-300">10</h1>
+                    <h1 className="lg:text-6xl text-5xl font-bold text-gray-300">5</h1>
                     <div>
                         <p className="text-gray-300 lg:text-lg text-xs">Projects <br/> completed</p>
                     </div>

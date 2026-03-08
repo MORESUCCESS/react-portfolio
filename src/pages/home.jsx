@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Github, Mail } from "lucide-react";
 import Footer from "../components/footer";
 import HamburgerComponents from "../components/hamburger";
+import heroImg from "../assets/msonthis.jpg";
 
 const Home = () => {
 
@@ -86,7 +87,8 @@ const techItem = {
   return (
     <>
       <motion.div
-        className="lg:min-h-screen h-full lg:overflow-hidden bg-fixed bg-[url('msonthis.jpg')] bg-center bg-no-repeat bg-cover relative lg:py-30 py-40 lg:pb-0 pb-20"
+        className="lg:min-h-screen h-full lg:overflow-hidden bg-fixed bg-center bg-no-repeat bg-cover relative lg:py-30 py-40 lg:pb-0 pb-20"
+        style={{ backgroundImage: `url(${heroImg})` }}
          initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}

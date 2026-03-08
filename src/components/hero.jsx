@@ -20,7 +20,7 @@ const Hero = ()=>{
                     <p className="lg:text-7xl text-5xl text-white font-bold pl-4 border-l-4 border-purple-700 rounded-xl">Implement</p>
                     <p className="lg:mt-5 mt-8 text-[20px]">I'm ms2dwrld, a full-stack web developer crafting modern web experiences and digital tools. I build scalable websites that helps business brands scale fast.</p>
                 </motion.div>
-                <motion.div className="items-start mt-10 flex lg:flex-row flex-col items-start gap-8"
+                <motion.div className="items-start mt-10 flex lg:flex-row flex-col gap-8"
                     initial={{ opacity: 0, x: 50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 2 }}

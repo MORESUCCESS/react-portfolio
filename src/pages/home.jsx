@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Github, Mail } from "lucide-react";
 import Footer from "../components/footer";
 import HamburgerComponents from "../components/hamburger";
-// import heroImg from "../assets/msonthis.jpg";
+import heroImg from "../assets/msonthis.jpg";
 
 const Home = () => {
 
@@ -87,11 +87,16 @@ const techItem = {
   return (
     <>
       <motion.div
-        className="lg:min-h-screen h-full lg:overflow-hidden lg:bg-fixed bg-[url('/msonthis.jpg')] bg-center bg-no-repeat bg-cover relative lg:py-30 py-40 lg:pb-0 pb-20"
+        className="lg:min-h-screen h-full lg:overflow-hidden bg-center bg-no-repeat bg-cover relative lg:py-30 py-40 lg:pb-0 pb-20"
          initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
+          <img 
+                src={heroImg} 
+                className="fixed top-0 left-0 w-full h-full object-cover z-[-1]" 
+                alt="hero background"
+            />
         <div className="absolute top-0 w-full h-full bg-black/65"></div>
         <NavBar />
         <div className="top-0 py-7 lg:w-9/11 lg:mx-auto mx-5 relative z-0">
@@ -141,7 +146,7 @@ const techItem = {
               >
                 <p className="mt-10 text-center lg:text-xl bg-purple-700 text-white py-1 rounded-full w-full px-5"
                 >Why choose me?</p>
-                <div className="space-y-2 mt-4 text-xl">
+                <div className="space-y-2 mt-4 lg:text-xl">
                     <p>~ Responsive and mobile friendly web apps</p>
                     <p>~ UI/UX Implementation</p>
                     <p>~ Website optimization and maintenance</p>

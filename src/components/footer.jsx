@@ -1,37 +1,26 @@
+import { Mail } from "lucide-react";
 
 
 const Footer = ()=>{
     return(
-       <div className="flex flex-col items-center">
-            <div className="grid lg:grid-cols-4 grid-cols-2 lg:mt-10 gap-4 pb-10">
-                <div className="flex items-center gap-1">
-                    <h1 className="lg:text-6xl text-5xl font-bold text-gray-300">3</h1>
-                    <div>
-                        <p className="text-gray-300 lg:text-lg text-xs">Years of <br/> experience</p>
+       <div className="bg-[#020618] py-10">
+            <div className="mx-auto w-9/11">
+                <div className="grid lg:grid-cols-2">
+                    <div className="flex items-start flex-col space-y-2 pb-4 border-b-white/60 w-fit">
+                        <h1 className="lg:text-3xl text-white font-bold">ms2dwrld<span className="text-3xl text-purple-600">.</span></h1>
+                        <p className="text-white/70">Helping business brands build websites that converts.</p>
+                    </div>
+                    
+                    <div className="flex items-start flex-col space-y-2 pb-4 border-b-white/60 w-fit">
+                        <h1 className="lg:text-3xl text-white font-bold">Get in touch today!</h1>
+                        <p className="text-white/70 flex gap-2"><Mail/>ms2dwrld@gmail.com</p>
                     </div>
                 </div>
 
-                <div className="flex items-center gap-1">
-                    <h1 className="lg:text-6xl text-5xl font-bold text-gray-300">5</h1>
-                    <div>
-                        <p className="text-gray-300 lg:text-lg text-xs">Projects <br/> completed</p>
-                    </div>
-                </div>
-
-             <div className="flex items-center gap-1">
-                <h1 className="lg:text-6xl text-5xl font-bold text-gray-300">6</h1>
-                <div>
-                    <p className="text-gray-300 lg:text-lg text-xs">Technologies <br/> mastered</p>
-                </div>
+            <div className="text-white/70 py-4 text-center mb-10">
+                <p className="text-sm">&copy; 2026 ms2dwrld (Hammed Omoniyi)</p>
             </div>
-
-             <div className="flex items-center gap-1">
-                <h1 className="lg:text-6xl text-5xl font-bold text-gray-300">115</h1>
-                <div>
-                    <p className="text-gray-300 lg:text-lg text-xs">Code <br/> commits</p>
-                </div>
             </div>
-        </div>
        </div>
     );
 }

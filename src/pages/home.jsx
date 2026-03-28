@@ -169,7 +169,7 @@ const techItem = {
                             <motion.div key={index} 
                             variants={techItem}
                             className="duration-300 w-full hover:scale-110 transition-transform flex space-y-2 cursor-pointer w-[130px] rounded-xl flex-col bg-white p-5 items-center justify-center">
-                                <div>
+                                <div className="flex flex-col items-center jsutify-center">
                                     <img src={item.stack} 
                                     className="w-[60px] h-[60px]"
                                     alt={item.stack}/>
@@ -267,26 +267,30 @@ const techItem = {
                             <p className="text-xl">First Name</p>
                             <input type="text" 
                                 required 
+                                placeholder="First name..."
                                 className="pl-2 border-2 border-black/50 outline-none py-2 text-xl rounded-xl"/>
                         </div>
                         <div className="space-y-3">
-                            <p className="text-xl">Last Name</p>
+                            <p className="lg:text-xl">Last Name</p>
                             <input type="text" 
                                 required 
+                                placeholder="Last name..."
                                 className="pl-2 border-2 border-black/50 outline-none py-2 text-xl rounded-xl"/>
                         </div>
 
                         <div className="space-y-3 w-full">
-                            <p className="text-xl">Email <span className="text-red-600">*</span></p>
+                            <p className="lg:text-xl">Email <span className="text-red-600">*</span></p>
                             <input type="email" 
                                 required 
+                                placeholder="Email address.."
                                 className="pl-2 border-2 border-black/50 outline-none py-2 text-xl rounded-xl w-full"/>
                         </div>
 
                         <div className="space-y-3 w-full">
-                            <p className="text-xl">Message</p>
+                            <p className="lg:text-xl">Message</p>
                             <textarea maxLength={5} 
                                 required 
+                                placeholder="Your message goes here..."
                                 className="pl-2 border-2 border-black/50 outline-none py-2 text-xl rounded-xl w-full"/>
                         </div>
 

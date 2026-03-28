@@ -147,10 +147,10 @@ const techItem = {
                 <p className="mt-10 text-center lg:text-xl bg-purple-700 text-white py-1 rounded-full w-full px-5"
                 >Why choose me?</p>
                 <div className="space-y-2 mt-4 lg:text-xl">
-                    <p>~ Responsive and mobile friendly web apps</p>
-                    <p>~ UI/UX Implementation</p>
-                    <p>~ Website optimization and maintenance</p>
-                    <p>~ Super friendly professional communication</p>
+                    <p>- Responsive and mobile friendly web apps</p>
+                    <p>- UI/UX Implementation</p>
+                    <p>- Website optimization and maintenance</p>
+                    <p>- Super friendly professional communication</p>
                 </div>
               </motion.div>
             </div>

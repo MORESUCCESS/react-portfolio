@@ -18,7 +18,7 @@ const Hero = ()=>{
                     <h1 className="lg:text-7xl text-5xl font-bold border-l-4 pl-4 border-purple-700 rounded-xl">Code</h1>
                     <p className="lg:text-7xl text-5xl text-white font-bold pl-4 border-l-4 border-purple-700 rounded-xl">Design</p>
                     <p className="lg:text-7xl text-5xl text-white font-bold pl-4 border-l-4 border-purple-700 rounded-xl">Implement</p>
-                    <p className="lg:mt-5 mt-8 text-[20px]">I'm ms2dwrld, a full-stack web developer crafting modern web experiences and digital tools. I build scalable websites that help business brands grow fast.</p>
+                    <p className="lg:mt-5 mt-8 text-[20px]">I'm Hammed O., a full-stack web developer crafting modern web experiences and digital tools. I build scalable websites that help business brands grow fast.</p>
                 </motion.div>
                 <motion.div className="items-start mt-10 flex lg:flex-row flex-col gap-8"
                     initial={{ opacity: 0, x: 50 }}

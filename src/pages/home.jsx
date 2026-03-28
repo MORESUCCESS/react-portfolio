@@ -130,7 +130,7 @@ const techItem = {
             </div>
 
             <div>
-              <p className="lg:text-[20px] text-justify">
+              <p className="lg:text-[20px]">
                 I’m <b>ms2dwrld</b> (Hammed Omoniyi), a passionate web developer dedicated to creating clean, responsive, and interactive digital experiences. Skilled in Html, CSS, JavaScript, React.js, Tailwind CSS, and JavaScript, I build websites and applications that are not only functional but visually engaging. I love turning ideas into reality through code, ensuring every project I work on is optimized, user-friendly, and mobile-responsive.
 
                 <br/><br/>Beyond just writing code, I focus on design, usability, and performance, blending creativity with technical expertise. Constantly learning and experimenting with new technologies, I aim to deliver projects that leave a lasting impression.

@@ -64,14 +64,14 @@ const TerminalHero = () => {
   }, [charIndex, lineIndex]);
 
   return (
-    <div className="bg-[#020618] rounded-xl shadow-lg overflow-hidden w-[500px] h-[380px]">
+    <div className="font-mono bg-black/30 rounded-xl shadow-lg overflow-hidden w-[500px] h-[380px]">
 
       {/* terminal header */}
       <div className="flex gap-2 p-3 bg-gray-800 items-center">
         <span className="w-3 h-3 bg-red-500 rounded-full"></span>
         <span className="w-3 h-3 bg-yellow-500 rounded-full"></span>
         <span className="w-3 h-3 bg-green-500 rounded-full"></span>
-        <p className="ml-5 text-white/60">ms2dwrld.tsx</p>
+        <p className="ml-5 text-white/80">ms2dwrld.tsx</p>
       </div>
 
       {/* terminal body */}

@@ -132,16 +132,11 @@ const Home = () => {
       <section id="aboutme" className="bg-black/70 font-mono">
         <div className="w-9/11 mx-auto lg:py-25 py-20">
           <div
-            className="flex flex-col items-center justify-center"
-            initial={{ opacity: 0, y: 60 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 2 }}
-          >
-            <h1 className="lg:text-6xl text-3xl text-white font-bold text-center font-mono">
+            className="flex flex-col items-center justify-center">
+            <h1 data-aos="fade-up" className="lg:text-6xl text-3xl text-white font-bold text-center font-mono">
               About Me
             </h1>
-            <p className="mb-20 text-center lg:text-xl bg-[#522398] text-white py-1 rounded-full w-fit px-10 font-mono">
+            <p data-aos="fade-down" className="mb-20 text-center lg:text-xl bg-[#522398] text-white py-1 rounded-full w-fit px-10 font-mono">
               Who am I?
             </p>
           </div>

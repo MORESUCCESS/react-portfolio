@@ -113,11 +113,8 @@ const Home = () => {
   ];
   return (
     <>
-      <motion.div
+      <div
         className="font-mono lg:min-h-screen h-full lg:overflow-hidden bg-center bg-no-repeat bg-cover relative lg:py-30 py-40 lg:pb-0 pb-20"
-        initial={{ opacity: 0, y: 80 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <img
           src={heroImg}
@@ -129,12 +126,12 @@ const Home = () => {
         <div className="top-0 py-7 lg:w-9/11 lg:mx-auto mx-5 relative z-0">
           <Hero />
         </div>
-      </motion.div>
+      </div>
 
       {/* about me */}
       <section id="aboutme" className="bg-black/70 font-mono">
         <div className="w-9/11 mx-auto lg:py-25 py-20">
-          <motion.div
+          <div
             className="flex flex-col items-center justify-center"
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -147,15 +144,12 @@ const Home = () => {
             <p className="mb-20 text-center lg:text-xl bg-[#522398] text-white py-1 rounded-full w-fit px-10 font-mono">
               Who am I?
             </p>
-          </motion.div>
-          <motion.div
+          </div>
+          <div
             className="grid lg:grid-cols-2 gap-10 items-start"
-            initial={{ opacity: 0, y: 60 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.9 }}
+            
           >
-            <div className="h-full">
+            <div className="h-full" data-aos="fade-right">
               <img
                 src="aboutme.jpg"
                 alt="aboutmeimage"
@@ -164,7 +158,7 @@ const Home = () => {
             </div>
 
             <div>
-              <p className="lg:text-lg text-white text-center font-mono">
+              <p data-aos="fade-up" className="lg:text-lg text-white text-center font-mono">
                 I’m <b>ms2dwrld</b> (Hammed Omoniyi), a passionate web developer
                 dedicated to creating clean, responsive, and interactive digital
                 experiences. Skilled in Html, CSS, JavaScript, React.js,
@@ -183,16 +177,11 @@ const Home = () => {
                 world.
               </p>
 
-              <motion.div
-                initial={{ opacity: 0, x: -80 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.7 }}
-              >
-                <p className="mt-10 text-center lg:text-xl bg-[#522398] text-white py-1 rounded-full w-full">
+              <div>
+                <p data-aos="fade-down" className="mt-10 text-center lg:text-xl bg-[#522398] text-white py-1 rounded-full w-full">
                   Why choose me?
                 </p>
-                <div className="space-y-2 mt-4 lg:text-lg text-white text-center">
+                <div data-aos="fade-up" className="space-y-2 mt-4 lg:text-lg text-white text-center">
                   I build fast, responsive, and mobile-friendly websites that
                   look great on any device, I also transform ideas into clean,
                   user-focused UI/UX experiences, I optimize and maintain
@@ -200,25 +189,22 @@ const Home = () => {
                   communicate clearly, professionally, and always keep you in
                   the loop.
                 </div>
-              </motion.div>
+              </div>
             </div>
-          </motion.div>
+          </div>
 
           <div className="mt-20 flex flex-col items-center jsutify-center">
-            <p className="mb-8 text-center bg-[#522398] lg:text-lg text-white py-1 rounded-full lg:w-sm lg-px-0 px-17">
+            <p data-aos="fade-left" className="mb-8 text-center bg-[#522398] lg:text-lg text-white py-1 rounded-full lg:w-sm lg-px-0 px-17">
               My Tech Stacks
             </p>
-            <motion.div
+            <div
               className="grid lg:grid-cols-5 grid-cols-2 place-items-start gap-4 bg-black/40 p-8 rounded-xl"
-              variants={container}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: true }}
+              
             >
               {techStack.map((item, index) => (
-                <motion.div
+                <div
                   key={index}
-                  variants={techItem}
+                  data-aos="fade-up"
                   className="duration-300 w-full hover:scale-110 transition-transform flex space-y-2 cursor-pointer rounded-xl flex-col bg-white p-5 items-center justify-center"
                 >
                   <div className="flex flex-col items-center jsutify-center">
@@ -231,9 +217,9 @@ const Home = () => {
                       {item.name}
                     </p>
                   </div>
-                </motion.div>
+                </div>
               ))}
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>
@@ -241,29 +227,22 @@ const Home = () => {
       {/* Projects */}
       <section id="projects" className="py-25 bg-black/75 font-mono">
         <div className="mx-auto w-9/11">
-          <motion.div
+          <div
             className="flex flex-col items-center justify-center space-y-5"
-            initial={{ opacity: 0, x: -80 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
           >
-            <h1 className="lg:text-6xl text-3xl font-bold text-center text-white">
+            <h1 data-aos="fade-right" className="lg:text-6xl text-3xl font-bold text-center text-white">
               Projects
             </h1>
-            <p className="lg:mb-10 text-center lg:text-xl bg-[#522398] text-white py-1 rounded-full w-fit px-10">
+            <p data-aos="fade-left" className="lg:mb-10 text-center lg:text-xl bg-[#522398] text-white py-1 rounded-full w-fit px-10">
               List of my projects
             </p>
-          </motion.div>
+          </div>
           <div className="grid lg:grid-cols-3 py-20 lg:gap-10 gap-20">
             {projects.map((item, index) => (
-              <motion.div
+              <div
                 key={index}
                 className="hover:scale-110 duration-300 transition-transform relative shadow-lg shadow-white/10 rounded-xl text-white"
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.9 }}
+                data-aos="fade-up"
               >
                 <img
                   src={item.image}
@@ -305,7 +284,7 @@ const Home = () => {
                 >
                   {item.status}
                 </p>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
@@ -313,40 +292,29 @@ const Home = () => {
 
       {/* Contact me */}
       <section id="contactme" className="bg-black/70 py-20 font-mono">
-        <motion.div
-          className="w-9/11 mx-auto"
-          initial={{ opacity: 0, x: -80 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-        >
+        <div>
           <div className="flex flex-col items-center justify-center space-y-5">
-            <h1 className="lg:text-6xl text-3xl font-bold text-center text-white">
+            <h1 data-aos="fade-up" className="lg:text-6xl text-3xl font-bold text-center text-white">
               Contact me
             </h1>
-            <p className="mb-20 text-center lg:text-xl bg-[#522398] text-white py-1 rounded-full w-fit px-7">
+            <p data-aos="fade-left" className="mb-20 text-center lg:text-xl bg-[#522398] text-white py-1 rounded-full w-fit px-7">
               Do you own a business brand?
             </p>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
-          className="grid lg:grid-cols-2 gap-5 mx-auto w-9/11"
-          initial={{ opacity: 0, x: -80 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-        >
+        <div
+          className="grid lg:grid-cols-2 gap-5 mx-auto w-9/11">
           <div className="space-y-5">
-            <h1 className="text-3xl font-bold text-white">
+            <h1 data-aos="fade-right" className="text-3xl font-bold text-white">
               Just a click away!
             </h1>
-            <p className="lg:text-xl text-white">
+            <p data-aos="fade-down" className="lg:text-xl text-white">
               I'm always available to work, both remote and on-site, let's build
               something great together.
             </p>
 
-            <div className="lg:flex hidden items-center gap-4 mt-15">
+            <div data-aos="fade-left" className="lg:flex hidden items-center gap-4 mt-15">
               <Mail className="w-10 h-10 text-[#522398]" />
               <p className="lg:text-xl text-white">ms2dwrld@gmail.com</p>
             </div>
@@ -359,7 +327,7 @@ const Home = () => {
               encType="text/plain"
               className="text-white w-full space-y-3 flex flex-col"
             >
-              <div className="space-y-3 text-white w-full flex flex-col">
+              <div data-aos="fade-right" className="space-y-3 text-white w-full flex flex-col">
                 <p className="text-xl">First Name</p>
                 <input
                   type="text"
@@ -368,7 +336,7 @@ const Home = () => {
                   className="pl-2 border-1 border-white/10 outline-none py-2 text-lg rounded-xl"
                 />
               </div>
-              <div className="space-y-3 flex flex-col">
+              <div data-aos="fade-left" className="space-y-3 flex flex-col">
                 <p className="text-xl">Last Name</p>
                 <input
                   type="text"
@@ -378,7 +346,7 @@ const Home = () => {
                 />
               </div>
 
-              <div className="space-y-3 w-full flex flex-col">
+              <div data-aos="fade-right" className="space-y-3 w-full flex flex-col">
                 <p className="text-xl">
                   Email <span className="text-red-600">*</span>
                 </p>
@@ -390,7 +358,7 @@ const Home = () => {
                 />
               </div>
 
-              <div className="space-y-3 w-full">
+              <div data-aos="fade-left" className="space-y-3 w-full">
                 <p className="lg:text-xl">Message</p>
                 <textarea
                   maxLength={5}
@@ -400,7 +368,7 @@ const Home = () => {
                 />
               </div>
 
-              <div>
+              <div data-aos="fade-left">
                 <button
                   type="submit"
                   className="bg-[#522398] text-white py-2 px-6 rounded-xl cursor-pointer active:scale-90 transition-transform duration-300"
@@ -410,15 +378,15 @@ const Home = () => {
               </div>
             </form>
           </div>
-        </motion.div>
+        </div>
       </section>
 
       {/* footer */}
-      <motion.div>
+      <div>
         <Footer />
 
         <HamburgerComponents />
-      </motion.div>
+      </div>
     </>
   );
 };

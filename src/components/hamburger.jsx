@@ -11,10 +11,10 @@ const HamburgerComponents = ()=>{
         > 
                 <div className="w-full py-4 px-3 z-50">
                     <div className="flex gap-2 items-center justify-around">
-                        <a href="/" className="py-2 bg-black/30 px-4 rounded-xl"><House className="w-8 h-8"/></a>
-                        <a href="#aboutme" className="bg-black/30 px-4 rounded-xl py-2"><Info className="w-8 h-8"/></a>
-                        <a href="#projects" className="bg-black/30 px-4 rounded-xl py-2"><FolderDotIcon className="w-8 h-8"/></a>
-                        <a href="#contactme" className="bg-black/30 px-4 rounded-xl py-2"><Megaphone className="w-8 h-8"/></a>
+                        <a href="/" className="py-2 bg-white/30 px-4 rounded-xl"><House className="w-8 h-8"/></a>
+                        <a href="#aboutme" className="bg-white/30 px-4 rounded-xl py-2"><Info className="w-8 h-8"/></a>
+                        <a href="#projects" className="bg-white/30 px-4 rounded-xl py-2"><FolderDotIcon className="w-8 h-8"/></a>
+                        <a href="#contactme" className="bg-white/30 px-4 rounded-xl py-2"><Megaphone className="w-8 h-8"/></a>
                     </div>
                 </div>
         </motion.div>

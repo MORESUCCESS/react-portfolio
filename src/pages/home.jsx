@@ -341,7 +341,7 @@ const Home = () => {
             <h1 className="text-3xl font-bold text-white">
               Just a click away!
             </h1>
-            <p className="text-xl text-white">
+            <p className="lg:text-xl text-white">
               I'm always available to work, both remote and on-site, let's build
               something great together.
             </p>

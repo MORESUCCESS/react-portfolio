@@ -91,6 +91,22 @@ const techItem = {
             stack: "git-original.svg",
             name: "GIT"
         },
+        {
+            stack: "MongoDB.svg",
+            name: "MONGODB"
+        },
+        {
+            stack: "Node.js.svg",
+            name: "NODE JS"
+        },
+        {
+            stack: "Express.svg",
+            name: "EXPRESS JS"
+        },
+        {
+            stack: "Vercel.svg",
+            name: "VERCEL"
+        }
 
     ]
   return (

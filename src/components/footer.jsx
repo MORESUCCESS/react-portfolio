@@ -4,7 +4,7 @@ import { Mail } from "lucide-react";
 const Footer = ()=>{
     return(
        <div className="bg-black/80 py-10 font-mono">
-            <div className="mx-auto w-9/11">
+            <div className="mx-auto w-[90%]">
                 <div className="grid lg:grid-cols-2">
                     <div className="flex items-start flex-col space-y-2 pb-4 border-b-white/60 w-fit">
                         <h1 className="lg:text-3xl text-white font-bold" data-aos="fade-right">ms2dwrld<span className="text-3xl text-purple-600">.</span></h1>

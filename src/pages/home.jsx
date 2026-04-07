@@ -1,25 +1,11 @@
 import NavBar from "../components/navBar";
 import Hero from "../components/hero";
-import { motion } from "framer-motion";
 import { ArrowRight, Github, Mail } from "lucide-react";
 import Footer from "../components/footer";
 import HamburgerComponents from "../components/hamburger";
 import heroImg from "../assets/msonthis.jpg";
 
 const Home = () => {
-  const container = {
-    hidden: {},
-    show: {
-      transition: {
-        staggerChildren: 0.15,
-      },
-    },
-  };
-
-  const techItem = {
-    hidden: { opacity: 0, y: 40 },
-    show: { opacity: 1, y: 0 },
-  };
 
   const projects = [
     {
@@ -114,7 +100,7 @@ const Home = () => {
   return (
     <>
       <div
-        className="font-mono lg:min-h-screen h-full lg:overflow-hidden bg-center bg-no-repeat bg-cover relative lg:py-30 py-40 lg:pb-0 pb-20"
+        className="font-mono lg:min-h-screen overflow-hidden w-full h-full bg-center bg-no-repeat bg-cover relative lg:py-30 py-40 lg:pb-0 pb-20"
       >
         <img
           src={heroImg}
@@ -130,7 +116,7 @@ const Home = () => {
 
       {/* about me */}
       <section id="aboutme" className="bg-black/70 font-mono">
-        <div className="w-9/11 mx-auto lg:py-25 py-20">
+        <div className="w-full max-w-6xl mx-auto px-5 lg:py-25 py-20">
           <div
             className="flex flex-col items-center justify-center">
             <h1 data-aos="fade-up" className="lg:text-6xl text-3xl text-white font-bold text-center font-mono">
@@ -189,7 +175,7 @@ const Home = () => {
           </div>
 
           <div className="mt-20 flex flex-col items-center jsutify-center">
-            <p data-aos="fade-left" className="mb-8 text-center bg-[#522398] lg:text-lg text-white py-1 rounded-full lg:w-sm lg-px-0 px-17">
+            <p data-aos="fade-left" className="mb-8 text-center bg-[#522398] lg:text-lg text-white py-1 rounded-full lg:w-sm lg-px-0 px-8">
               My Tech Stacks
             </p>
             <div
@@ -200,7 +186,7 @@ const Home = () => {
                 <div
                   key={index}
                   data-aos="fade-up"
-                  className="duration-300 w-full hover:scale-110 transition-transform flex space-y-2 cursor-pointer rounded-xl flex-col bg-white p-5 items-center justify-center"
+                  className="duration-300 w-full lg:hover:scale-105 transition-transform flex space-y-2 cursor-pointer rounded-xl flex-col bg-white p-5 items-center justify-center"
                 >
                   <div className="flex flex-col items-center jsutify-center">
                     <img
@@ -221,7 +207,7 @@ const Home = () => {
 
       {/* Projects */}
       <section id="projects" className="py-25 bg-black/75 font-mono">
-        <div className="mx-auto w-9/11">
+        <div className="w-full max-w-6xl mx-auto px-5">
           <div
             className="flex flex-col items-center justify-center space-y-5"
           >
@@ -236,7 +222,7 @@ const Home = () => {
             {projects.map((item, index) => (
               <div
                 key={index}
-                className="hover:scale-110 duration-300 transition-transform relative shadow-lg shadow-white/10 rounded-xl text-white"
+                className="lg:hover:scale-110 duration-300 transition-transform relative shadow-lg shadow-white/10 rounded-xl text-white"
                 data-aos="fade-up"
               >
                 <img
@@ -299,7 +285,7 @@ const Home = () => {
         </div>
 
         <div
-          className="grid lg:grid-cols-2 gap-5 mx-auto w-9/11">
+          className="grid lg:grid-cols-2 gap-5 w-full max-w-6xl mx-auto px-5">
           <div className="space-y-5">
             <h1 data-aos="fade-right" className="text-3xl font-bold text-white">
               Just a click away!

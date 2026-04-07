@@ -2,7 +2,7 @@ import NavLinksItems from "./navLinksItems";
 
 const NavBar = ()=>{
     return(
-        <nav className="font-mono fixed top-0 w-full rounded-4xl lg:py-5 py-2 z-100 border-b border-white/8 backdrop-blur flex items-center justify-between lg:px-30 px-6">
+        <nav className="max-w-full font-mono fixed top-0 w-full rounded-4xl lg:py-5 py-2 z-100 border-b border-white/8 backdrop-blur flex items-center justify-between lg:px-30 px-6">
             <div>
                 <h1 className="lg:text-3xl text-white font-bold">ms2dwrld<span className="text-3xl text-[#522398]">.</span></h1>
                 
